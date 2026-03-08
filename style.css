@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: blanchedalmond;
+    color:black;
+}
+header{
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    background-image: url(cloth.jpg);
+    background-position: center;
+}
+.btn{
+    display:inline-block;
+    margin-top:300px;
+    margin-left: 40%;
+    background-color: green;
+    border:none;
+    font-size:20px;
+    padding:10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color:white;
+}
+.services h1{
+    text-align: center;
+    padding:30px;
+}
+.shower{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+    padding:30px;
+    margin:auto;
+    max-width: 1000px;
+    
+}
+.shower div{
+    background-color:white;
+    padding: 50px;
+    border-radius: 15px;
+}
+.come{
+    background-color: white;
+}
+img{
+    height:300px;
+    width:300px;
+    border-radius: 15px;
+}
+.shoes{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    max-width:1000px;
+    margin:auto;
+}
+.shoes div p {
+    text-align: center;
+    padding:5px;
+}
+.shoe div a{
+    background-color: green;
+}
+button{
+    text-align: center;
+    text-decoration: none;
+}
+.cone{
+    color:blue;
+}
+@media(max-width:700px){
+    .btn{
+        font-size:20px;
+        margin-left: 30%;
+        margin-top: 500px;
+    }
+    .shower{
+        display:block;
+        margin-left: 0px;
+    }
+    .shower div{
+        margin:20px;
+        max-width:120%;
+        text-align: center;
+        padding:50px;
+    }
+    .shower p{
+        padding:20px;
+        font-size:20px;
+    }
+    .shoes{
+        display:block;
+        margin-left:35px;
+        padding:20px;
+    }
+    img{
+        width:80%;
+        height:80%;
+    }
+}
